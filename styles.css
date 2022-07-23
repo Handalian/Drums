@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+    background-color: #72FFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+#title {
+  font-weight: 900;
+  font-size: 5rem;
+  color: #333333;
+  text-shadow: 3px 0 #0096FF;
+  line-height: 1.5;
+  padding-top:100px ;
+}
+
+footer {
+  color: #333333;
+  padding-bottom: 150px;
+}
+
+.w {
+  background-image: url("images/snare.png");
+  background-size: 150px;
+}
+
+.a {
+  background-image: url("images/tom1.png");
+  background-size: 150px;
+}
+
+.s {
+  background-image: url("images/tom2.png");
+  background-size: 150px;
+}
+
+.d {
+  background-image: url("images/tom3.png");
+  background-size: 150px;
+}
+
+.j {
+  background-image: url("images/crash.png");
+  background-size: 200px;
+}
+
+.k {
+  background-image: url("images/hithat.png");
+  background-size: 200px;
+}
+
+.l {
+  background-image: url("images/kick.png");
+  background-size: 150px;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #00D7FF;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #0096FF;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #333333;
+  text-shadow: 3px 0 #0096FF;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #0096FF;
+}
+
+.container-fluid {
+  padding: 0 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
