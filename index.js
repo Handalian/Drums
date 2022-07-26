@@ -1,71 +1,15 @@
 const number_drums_buttons = document.querySelectorAll(".drum").length;
 
 
-// for (let i = 0; i < number_drums_buttons; i++) {
-//
-//   document.querySelectorAll(".drum")[i].addEventListener('click', function () {
-//     var buttonInnerHTML = this.innerHTML;
-//     makeSound(buttonInnerHTML);
-//     buttonAnimation(buttonInnerHTML);
-//
-//
-//   });
-//
-// }
+for (let i = 0; i < number_drums_buttons; i++) {
+   document.querySelectorAll(".drum")[i].addEventListener('click', function () {
+       var buttonInnerHTML = this.innerHTML;
+        makeSound(buttonInnerHTML);
+        buttonAnimation(buttonInnerHTML);
 
+   });
 
-  document.querySelectorAll(".drum")[0].addEventListener('click', function () {
-    var buttonInnerHTML = this.innerHTML;
-    makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML);
-  });
-
-  document.querySelectorAll(".drum")[1].addEventListener('click', function () {
-    var buttonInnerHTML = this.innerHTML;
-    makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML);
-  });
-  document.querySelectorAll(".drum")[2].addEventListener('click', function () {
-    var buttonInnerHTML = this.innerHTML;
-    makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML);
-  });
-  document.querySelectorAll(".drum")[3].addEventListener('click', function () {
-    var buttonInnerHTML = this.innerHTML;
-    makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML);
-  });
-
-  document.querySelectorAll(".drum")[4].addEventListener('click', function () {
-    var buttonInnerHTML = this.innerHTML;
-    makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML);
-  });
-  document.querySelectorAll(".drum")[5].addEventListener('click', function () {
-    var buttonInnerHTML = this.innerHTML;
-    makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML);
-  });
-  document.querySelectorAll(".drum")[6].addEventListener('click', function () {
-    var buttonInnerHTML = this.innerHTML;
-    makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML);
-  });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ }
 
 
 
